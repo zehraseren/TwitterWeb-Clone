@@ -140,8 +140,8 @@ export const mainMenu = [
   },
   // Premium
   {
-    path: "/premium",
-    title: "Premium",
+    path: "/verified",
+    title: "Onaylanmış",
     icon: {
       active: (
         <svg viewBox="0 0 24 24" width={28} height={28} className="block">
