@@ -4,7 +4,7 @@ export default function More() {
   return (
     <Popover className="relative">
       <Popover.Button className="py-[3px] block outline-none group">
-        <button>
+        <div>
           <div className="p-3 rounded-full inline-flex items-center gap-5 group-hover:bg-[#eff3f41a] transition-colors">
             <div className="w-[26.25px] h-[26.25px] relative">
               <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
@@ -16,7 +16,7 @@ export default function More() {
             </div>
             <div className="pr-4 text-xl">Daha fazla</div>
           </div>
-        </button>
+        </div>
       </Popover.Button>
       <Popover.Panel className="w-[318px] bottom-0 left-0 bg-black  shadow-box rounded-xl overflow-hidden absolute">
         {/* Bookmarks */}
