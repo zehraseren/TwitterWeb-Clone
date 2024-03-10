@@ -6,7 +6,7 @@ import NewTweet from "./new";
 
 export default function Menu() {
   return (
-    <nav className="mt-1 mb-1">
+    <nav className="mt-0.5 mb-1">
       {mainMenu.map((menu, index) => (
         <NavLink to={menu.path} className="py-[3px] block group" key={index}>
           {({ isActive }) => (
