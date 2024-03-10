@@ -167,7 +167,7 @@ export const mainMenu = [
   },
   // Profile
   {
-    path: `/${states?.auth.currentAccount.username}`,
+    path: `/${states?.auth?.currentAccount?.username}`,
     title: "Profil",
     icon: {
       active: (
