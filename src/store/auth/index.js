@@ -1,8 +1,29 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  currentAccount: false,
-  accounts: [],
+  currentAccount: {
+    id: 1,
+    username: "zehraseren",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+    fullname: "Zehra Şeren",
+  },
+  accounts: [
+    {
+      id: 1,
+      username: "zehraseren",
+      avatar:
+        "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+      fullname: "Zehra Şeren",
+    },
+    {
+      id: 2,
+      username: "anotherAccount",
+      avatar:
+        "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+      fullname: "Another Account",
+    },
+  ],
 };
 
 const auth = createSlice({
