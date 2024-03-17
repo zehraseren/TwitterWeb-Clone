@@ -28,8 +28,9 @@ export default function Search() {
           </svg>
         </div>
         <input
-          className="w-full h-full bg-transparent rounded-full outline-none pl-[56px] text-[15px]"
+          className="w-full h-full bg-transparent rounded-full outline-none pl-[56px] text-[15px] placeholder-[#71767b]"
           type="text"
+          placeholder="Ara"
           value={query}
           onFocus={() => setFocus(true)}
           onChange={(e) => setQuery(e.target.value)}
