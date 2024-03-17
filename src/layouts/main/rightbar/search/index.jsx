@@ -11,7 +11,7 @@ export default function Search() {
 
   return (
     <div
-      className="min-h-[32px] h-[53px] mb-3 flex items-center relative"
+      className="min-h-[32px] h-[53px] mb-3 top-0 z-10 bg-black flex items-center sticky"
       ref={ref}
     >
       <label className="h-[43px] rounded-full bg-[#202327] w-full focus-within:bg-black border border-transparent focus-within:border-[#1d9bf0] relative group">
