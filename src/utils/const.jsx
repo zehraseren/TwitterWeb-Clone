@@ -189,3 +189,81 @@ export const mainMenu = [
     },
   },
 ];
+
+export const topics = [
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "Atatürk",
+    },
+    postCount: 95443,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+  },
+  {
+    title: "Spor",
+    topic: {
+      type: "tag",
+      value: "Voleybol",
+    },
+    postCount: 565265,
+  },
+  {
+    title: "Film",
+    topic: {
+      type: "tag",
+      value: "Avengers",
+    },
+  },
+  {
+    title: "Teknoloji",
+    topic: {
+      type: "query",
+      value: "Robot",
+    },
+    postCount: 12026,
+  },
+  {
+    title: "Teknoloji",
+    topic: {
+      type: "tag",
+      value: "YeniAdıX",
+    },
+  },
+  {
+    title: "Dünya tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "SpaceX",
+    },
+    postCount: 984230,
+  },
+  {
+    title: "Dünya tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "WhatsApp",
+    },
+  },
+  {
+    title: "Spor",
+    topic: {
+      type: "tag",
+      value: "12DevAdam",
+    },
+    postCount: 985632,
+  },
+  {
+    title: "Dizi",
+    topic: {
+      type: "query",
+      value: "Avrupa Yakası",
+    },
+  },
+];
