@@ -23,7 +23,7 @@ export default function RightbarSection({ title, children, more }) {
 RightbarSection.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
-  more: PropTypes.oneOfTypes([PropTypes.bool, PropTypes.string]),
+  more: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
 };
 
 RightbarSection.defaultProps = {
