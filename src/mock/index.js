@@ -17,7 +17,7 @@ export const WhoFollowUsers = [
   },
   {
     id: 3,
-    username: "PunchingCar",
+    username: "PunchingCat",
     fullname: "Punch Cat",
     avatar:
       "https://pbs.twimg.com/profile_images/2325480844/xhvchlbttups6wv8u95y_bigger.gif",
