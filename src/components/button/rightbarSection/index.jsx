@@ -1,5 +1,5 @@
-/* eslint-disable no-undef */
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export default function RightbarSection({ title, children, more }) {
   return (
