@@ -1,4 +1,4 @@
-import RightbarSection from "../../../../components/button/rightbarSection";
+import RightbarSection from "../../../../components/rightbarSection";
 import { topics } from "../../../../utils/const";
 import Topic from "./topic";
 

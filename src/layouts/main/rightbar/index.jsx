@@ -1,4 +1,4 @@
-import WhoFollow from "../../../components/button/rightbarSection/whoFollow";
+import WhoFollow from "./../../../components/rightbarSection/whoFollow";
 import Premium from "./premium";
 import Search from "./search";
 import Topics from "./topics";
