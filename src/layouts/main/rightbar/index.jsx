@@ -1,3 +1,4 @@
+import WhoFollow from "../../../components/button/rightbarSection/whoFollow";
 import Premium from "./premium";
 import Search from "./search";
 import Topics from "./topics";
@@ -6,8 +7,9 @@ export default function RightBar() {
   return (
     <aside className="w-[350px] mr-0.5">
       <Search />
-      <Premium/>
-      <Topics/>
+      <Premium />
+      <Topics />
+      <WhoFollow />
     </aside>
   );
 }
