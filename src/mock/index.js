@@ -17,10 +17,10 @@ export const WhoFollowUsers = [
   },
   {
     id: 3,
-    username: "Marvel",
-    fullname: "Marvel Entertainment",
+    username: "PunchingCar",
+    fullname: "Punch Cat",
     avatar:
-      "https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_bigger.jpg",
+      "https://pbs.twimg.com/profile_images/2325480844/xhvchlbttups6wv8u95y_bigger.gif",
     verified: true,
   },
 ];
