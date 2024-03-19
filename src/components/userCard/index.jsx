@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Button from "../../../components/button";
+import Button from "../../components/button";
 
 export default function UserCard({ user }) {
   return (
