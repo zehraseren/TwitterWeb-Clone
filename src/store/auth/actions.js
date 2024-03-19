@@ -1,4 +1,4 @@
-import { _setCurrentAccount } from ".";
+import { _setCurrentAccount } from "../auth";
 import store from "../../store";
 
 export const setCurrentAccount = (data) =>
