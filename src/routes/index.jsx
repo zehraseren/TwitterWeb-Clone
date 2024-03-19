@@ -7,7 +7,7 @@ import Messages from "../pages/messages";
 import Lists from "../pages/lists";
 import Communities from "../pages/communities";
 import Profile from "../pages/profile";
-import NotFound from "~/pages/notFound";
+import NotFound from "../pages/notFound";
 
 const routes = createBrowserRouter([
   {
@@ -47,7 +47,7 @@ const routes = createBrowserRouter([
         element: <NotFound />,
       },
     ],
-  },
+  },  
 ]);
 
 export default routes;
