@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
+import { useState } from "react";
 import Button from "../../components/button";
 
 export default function UserCard({ user }) {
+  const [following, setFollowing] = useState(false);
   return (
     <button className="py-3 px-4 flex gap-3 hover:bg-white/[0.03] transition-colors">
       <img
@@ -29,9 +31,25 @@ export default function UserCard({ user }) {
         <div className="text-[15px] text-[#71767b]">@{user.username}</div>
       </div>
       <div>
-        <Button size="small" variant="white">
-          Takip et
-        </Button>
+        {following ? (
+          <Button
+            className="whitespace-nowrap group"
+            size="small"
+            variant="white-outline"
+            onClick={() => setFollowing(false)}
+          >
+            <div className="flex group-hover:hidden">Takip ediliyor</div>
+            <div className="hidden group-hover:flex">Takibi bırak</div>
+          </Button>
+        ) : (
+          <Button
+            size="small"
+            variant="white"
+            onClick={() => setFollowing(true)}
+          >
+            Takip et
+          </Button>
+        )}
       </div>
     </button>
   );
