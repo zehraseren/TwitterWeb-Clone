@@ -5,7 +5,7 @@ const initialState = {
     id: 1,
     username: "zehraseren",
     avatar:
-      "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1769801180257845248/sGtIgg7K_400x400.jpg",
     fullname: "Zehra Şeren",
   },
   accounts: [
@@ -13,14 +13,14 @@ const initialState = {
       id: 1,
       username: "zehraseren",
       avatar:
-        "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1769801180257845248/sGtIgg7K_400x400.jpg",
       fullname: "Zehra Şeren",
     },
     {
       id: 2,
       username: "anotherAccount",
       avatar:
-        "https://pbs.twimg.com/profile_images/1744918372339400704/LWw6HLDe_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1769801180257845248/sGtIgg7K_400x400.jpg",
       fullname: "Another Account",
     },
   ],
