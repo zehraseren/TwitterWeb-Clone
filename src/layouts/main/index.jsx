@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "../../layouts/main/sidebar";
-import RightBar from "./rightbar";
+import Sidebar from "./sidebar";
+import Rightbar from "./rightbar";
 
 export default function MainLayout() {
   return (
@@ -11,7 +11,7 @@ export default function MainLayout() {
           <Outlet />
         </main>
       </main>
-      <RightBar />
+      <Rightbar />
     </div>
   );
 }
