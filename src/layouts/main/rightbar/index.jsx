@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 export default function RightBar() {
   return (
-    <aside className="w-[350px] mr-0.5">
+    <aside className="w-[21.875rem] mr-0.5">
       <Search />
       <Premium />
       <Topics />
