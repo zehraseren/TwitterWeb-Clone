@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import MainLayout from "~/layouts/main";
 import Home from "~/pages/home";
+import MainLayout from "../layouts/main";
 import Explore from "~/pages/explore";
 import Notifications from "~/pages/notifications";
 import Messages from "../pages/messages";
@@ -8,7 +8,7 @@ import Lists from "../pages/lists";
 import Communities from "../pages/communities";
 import Profile from "../pages/profile";
 import NotFound from "../pages/notFound";
-import Settings from "../components/settings";
+import Settings from "../pages/settings";
 
 const routes = createBrowserRouter([
   {
@@ -28,10 +28,6 @@ const routes = createBrowserRouter([
         element: <Notifications />,
       },
       {
-        path: "messages",
-        element: <Messages />,
-      },
-      {
         path: "lists",
         element: <Lists />,
       },
@@ -43,15 +39,29 @@ const routes = createBrowserRouter([
         path: ":slug",
         element: <Profile />,
       },
+    ],
+  },
+  {
+    path: "messages/",
+    element: <Messages />,
+  },
+  {
+    path: "settings/",
+    element: <Settings />,
+    children: [
       {
-        path: "*",
-        element: <NotFound />,
-      },
-      {
-        path: "settings",
+        index: true,
         element: <Settings />,
       },
+      {
+        path: "account",
+        element: <Explore />,
+      },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
