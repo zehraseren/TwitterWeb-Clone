@@ -1,3 +1,14 @@
+import Sidebar from "../../layouts/main/sidebar";
+
 export default function Messages() {
-  return <div>Messages!</div>;
+  return (
+    <div>
+      <div className="w-[78.063rem] mx-auto flex">
+        <Sidebar />
+        <main className="flex flex-1">
+          <main className="flex flex-1 border-x border-[#2f3336] max-w-[27.5rem]">SS</main>
+        </main>
+      </div>
+    </div>
+  );
 }
