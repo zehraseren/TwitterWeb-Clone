@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Popover } from "@headlessui/react";
+import { Link } from "react-router-dom";
 
 export default function More() {
   return (
@@ -94,7 +95,8 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Reklamlar</div>
         </button>
         {/* Setting and Privacy */}
-        <button className="px-4 h-14 w-full inline-flex items-center gap-5 transition-colors hover:bg-[#eff3f41a]">
+        <Link className="px-4 h-14 w-full inline-flex items-center gap-5 transition-colors hover:bg-[#eff3f41a]"
+        to="/settings">
           <div className="w-[1.641rem] h-[1.641rem]] relative">
             <svg
               viewBox="0 0 24 24"
@@ -109,7 +111,7 @@ export default function More() {
             </svg>
           </div>
           <div className="pr-4 text-xl font-bold">Ayarlar ve gizlilik</div>
-        </button>
+        </Link>
       </Popover.Panel>
     </Popover>
   );
