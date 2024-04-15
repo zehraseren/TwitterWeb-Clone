@@ -267,3 +267,136 @@ export const topics = [
     },
   },
 ];
+
+export const settings = [
+  // Your Account
+  {
+    path: "/settings/account",
+    title: "Hesabın",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Monetizaiton
+  {
+    path: "/settings/monetization",
+    title: "Para kazanma",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Premium
+  {
+    path: "/i/premium_sign_up",
+    title: "Premium",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Creator Subscriptions
+  {
+    path: "/settings/manage_subscriptions",
+    title: "İçerik Üreticisi Abonelikleri",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Security and account access
+  {
+    path: "/settings/security_and_account_access",
+    title: "Güvenlik ve hesap erişimi",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Privacy and safety
+  {
+    path: "/settings/privacy_and_safety",
+    title: "Gizlilik ve güvenlik",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Notifications
+  {
+    path: "/settings/notifications",
+    title: "Bildirimler",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Accessibility, display, and languages
+  {
+    path: "/settings/accessibility_display_and_languages",
+    title: "Erişebilirlik, ekran ve diller",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Additional resources
+  {
+    path: "/settings/about",
+    title: "Ek kaynaklar",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26} className="block">
+        <path
+          fill="#71767b"
+          d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"
+        />
+      </svg>
+    ),
+  },
+  // Help Center
+  {
+    path: "https://help.twitter.com/tr",
+    title: "Yardım Merkezi",
+    icon: (
+      <svg viewBox="0 0 24 24" width={16} height={26}>
+        <path
+          fill="#71767b"
+          d="M8 6h10v10h-2V9.41L5.957 19.46l-1.414-1.42L14.586 8H8V6z"
+        />
+      </svg>
+    ),
+  },
+];
