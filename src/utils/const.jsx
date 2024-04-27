@@ -282,7 +282,7 @@ export const settings = [
       </svg>
     ),
   },
-  // Monetizaiton
+  // Monetization
   {
     path: "/settings/monetization",
     title: "Para kazanma",
